@@ -27,10 +27,11 @@ DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 # We allow local host and IPV4 DNS of EC2
 ALLOWED_HOSTS = [
-    'ec2-54-82-61-137.compute-1.amazonaws.com/',
+    'http://ec2-3-26-186-233.ap-southeast-2.compute.amazonaws.com',
     '127.0.0.1',
 ]
 
+# ALLOWED_HOSTS = []
 
 # Application definition
 
