@@ -1,0 +1,5 @@
+1. Run "vagrant up" to start vm machine
+2. Run "vagrant ssh" to ssh to vagrant machine
+3. Run "cd /vagrant/"
+4. Run "source ~/env/bin/activate" to activate virtual machine
+5. To deactivate, run "deactivate"
