@@ -25,7 +25,11 @@ SECRET_KEY = 'e!&+buvma&1g69wzrs4z(4^60k+^*h$^a0@yo$c8-h)d+abzy)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
-ALLOWED_HOSTS = []
+# We allow local host and IPV4 DNS of EC2
+ALLOWED_HOSTS = [
+    'ec2-54-82-61-137.compute-1.amazonaws.com/',
+    '127.0.0.1',
+]
 
 
 # Application definition
